@@ -32,7 +32,7 @@ if st.button("Submit Entry"):
             "Topic": topic
         }])
         new_data.to_csv(CSV_FILE, mode='a', header=False, index=False)
-        st.success("Entry added and saved to CSV!")
+        st.success("Thank You!")
     else:
         st.warning("Please fill out all fields.")
 st.markdown("##### Developer: Muhammad Hamza")

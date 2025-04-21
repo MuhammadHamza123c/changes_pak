@@ -21,7 +21,7 @@ if not os.path.exists(CSV_FILE):
 # Input fields
 username = st.text_input("Write down name here:")
 institute_name = st.text_input("Write down Institute name here:")
-topic = st.text_input("Write down Changes here:")
+topic = st.text_input("Write down Something you want to change in Pakistan:")
 
 # Button to submit input
 if st.button("Submit Entry"):

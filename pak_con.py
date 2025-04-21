@@ -36,6 +36,7 @@ if st.button("Submit Entry"):
     else:
         st.warning("Please fill out all fields.")
 st.markdown("#####Developer: Muhammad Hamza")
+st.markdown("#####BSDS 2nd Semester EUM")
 
 
 # Developer section

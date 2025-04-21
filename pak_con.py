@@ -35,6 +35,7 @@ if st.button("Submit Entry"):
         st.success("Entry added and saved to CSV!")
     else:
         st.warning("Please fill out all fields.")
+st.markdown("##### Muhammad Hamza")
 
 # Developer section
 with st.expander("Developer Work"):
@@ -45,3 +46,4 @@ with st.expander("Developer Work"):
     else:
         if password_dev:  # Only show warning if something is typed
             st.warning("Incorrect password!")
+ 

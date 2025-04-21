@@ -35,7 +35,8 @@ if st.button("Submit Entry"):
         st.success("Entry added and saved to CSV!")
     else:
         st.warning("Please fill out all fields.")
-st.markdown("##### Muhammad Hamza")
+st.markdown("#####Developer: Muhammad Hamza")
+
 
 # Developer section
 with st.expander("Developer Work"):

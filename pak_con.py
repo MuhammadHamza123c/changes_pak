@@ -42,7 +42,7 @@ st.markdown("##### BSDS 2nd Semester EUM")
 # Developer section
 with st.expander("Developer Work"):
     password_dev = st.text_input("Write down password here to check database:", type="password")
-    if password_dev == 'hamza123qwe':
+    if password_dev == 'hamza123qwer':
         data_df = pd.read_csv(CSV_FILE)
         st.dataframe(data_df)
     else:
